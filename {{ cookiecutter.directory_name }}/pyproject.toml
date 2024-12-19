@@ -9,14 +9,16 @@ description = "Add your description here"
 readme = "README.md"
 license = "{{ cookiecutter.license }}"
 requires-python = "{{ cookiecutter.python_version }}"
-authors = ["{{ cookiecutter.author_name  }} <{{ cookiecutter.author_email }}>"]
-maintainers = ["{{ cookiecutter.author_name  }} <{{ cookiecutter.author_email }}>"]
+authors = [
+    {name = "{{ cookiecutter.author_name  }}", email = "{{ cookiecutter.author_email }}"}]
+maintainers = [
+    {name = "{{ cookiecutter.author_name  }}", email = "{{ cookiecutter.author_email }}"}]
 
 packages = [
     { include = "{{ cookiecutter.directory_name }}", from = "src" },
 ]
 include = [
-    "README.md",
+    "README.md"
 ]
 
 dependencies = [
