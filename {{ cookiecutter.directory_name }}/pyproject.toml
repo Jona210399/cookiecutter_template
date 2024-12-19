@@ -26,3 +26,8 @@ dependencies = [
 
 [project.urls]
 Repository = "{{ cookiecutter.repo_url }}"
+
+[dependency-groups]
+dev = [
+    "ruff>=0.8.4",
+]
