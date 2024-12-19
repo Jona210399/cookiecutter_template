@@ -1,0 +1,11 @@
+{
+    "directory_name": "my_project",
+    "project_slug": "{{ cookiecutter.directory_name }}",
+    "author_name": "Jona Östreicher",
+    "author_email": "jona.oestreicher@gmail.com",
+    "github_username": "Jona210399",
+    "repo_url": "https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}",
+    "version": "0.1.0",
+    "license": ["MIT license", "BSD license", "ISC license", "Apache Software License 2.0", "GNU General Public License v3", "Not open source"],
+    "python_version": ">=3.10"
+  }
