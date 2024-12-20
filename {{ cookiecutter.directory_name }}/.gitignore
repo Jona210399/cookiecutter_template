@@ -11,5 +11,6 @@ wheels/
 .env
 
 
-# Results
+# IO
+/inputs
 /outputs
